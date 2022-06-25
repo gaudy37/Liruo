@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="liruo-framework" />
+        <module name="liruo-common" />
+        <module name="liruo-system" />
+        <module name="liruo-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="liruo" target="1.8" />
+      <module name="liruo-admin" target="1.8" />
+      <module name="liruo-common" target="1.8" />
+      <module name="liruo-framework" target="1.8" />
+      <module name="liruo-generator" target="1.8" />
+      <module name="liruo-quartz" target="1.8" />
+      <module name="liruo-system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

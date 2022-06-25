@@ -1,0 +1,41 @@
+使用环境：
+JDK 1.8
+Mysql 8
+Redis 5.0.14
+Maven 3.3.9
+Node 16.5.0
+-----------------------------------------------------华丽的分割线---------------------------------------------
+食用方式：
+1、启动navcat新建数据库，在数据库中导入项目中sql文件夹中的.sql文件。SQLServer应该导不进去，没有试过，建议用Mysql。
+
+2、Redis打开server（服务端）和cli（客户端）
+
+3、在liruo-admin中找到application-druid.yml并打开，改为你的mysql数据库配置（可以改用mysql5）
+该配置文件存放主要的操作信息
+
+4、使用IDEA导入项目（建议工作目录放在D盘中），在liruo-admin中找到RuoYiApplication.java，运行main
+
+若控制台出现 ↓
+(♥◠‿◠)ﾉﾞ  璃偌City权限系统启动成功   ლ(´ڡ`ლ)ﾞ
+
+此时在浏览器输入localhost:8080，出现 ↓
+欢迎使用璃偌City后台管理框架，当前版本：v1.0.1，请通过前端地址访问。
+
+表示后端代码成功运行。
+
+5、管理员命令行进入liruo-ui文件夹中，输入npm install --legacy-peer-deps
+//npm版本为7及以上，使用npm install加依赖会报错
+//详情见：https://blog.csdn.net/yqx_123/article/details/118787849
+
+加完依赖后，在liruo-ui文件夹中输入npm run dev，对依赖进行加载。
+
+6、打开http://localhost:81/即进入到登录页面（这动态效果做的是一言难尽吖。。。。）
+
+7、操作需要知道的事情：
+	1）该项目是对若依框架的二次开发尝试，只是本人用于学习大佬的编程思想
+	2）登录名：admin  密码：admin123（默认填好，不建议改动）
+
+
+//这些应该差不多了，足够使用了
+
+
